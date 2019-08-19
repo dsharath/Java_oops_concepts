@@ -10,7 +10,7 @@ public class CustomSingleton {
 	public static CustomSingleton getCustomSingleton() {
   
 		if(singleton == null){
-     singleton = new CustomSingleton();
+            singleton = new CustomSingleton();
     }
 		return singleton;
 	}
