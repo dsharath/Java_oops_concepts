@@ -10,7 +10,6 @@ public class InstanceStatic {
 		System.out.println("First Instance Block...");
 	}
 	
-	
 	static {
 		System.out.println("Fisrt Static Block...");
 	}
